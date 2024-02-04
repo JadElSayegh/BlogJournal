@@ -19,7 +19,7 @@ app.use(express.static("public"));
 main().catch((err) => console.log(err));
 
 async function main() {
-  await mongoose.connect("mongodb+srv://jadalsayegh10:<password>@cluster0.bcqntfr.mongodb.net/blogDB");
+  await mongoose.connect("mongodb+srv://jadalsayegh10:Give504@cluster0.bcqntfr.mongodb.net/blogDB");
  
   const postSchema = {
     title: String,
